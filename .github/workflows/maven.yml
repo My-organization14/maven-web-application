@@ -22,5 +22,5 @@ jobs:
   call-template:
     uses: My-organization14/Self-Templates/.github/workflows/template.yml@main
     with:
-      my_input: 'My Template'
+      my_input: 'This is My Template'
   
