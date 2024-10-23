@@ -23,3 +23,9 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+
+  call-template:
+    uses: My-organization14/Self-Templates/.github/workflows/template.yml
+    with:
+      my_input: 'My Template'
+  
