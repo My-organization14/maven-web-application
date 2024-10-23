@@ -20,7 +20,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
   call-template:
-    uses: My-organization14/Self-Templates/.github/workflows/template.yml
+    uses: My-organization14/Self-Templates/.github/workflows/template.yml@main
     with:
       my_input: 'My Template'
   
